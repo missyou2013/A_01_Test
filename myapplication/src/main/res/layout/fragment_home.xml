@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 首页 -->
+
+
+    <Button
+        android:text="Recyleview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/h_recyleview" />
+
+    <Button
+        android:text="Tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/h_tab" />
+
+    <Button
+        android:text="TABLAYOUT_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/h_tab_2" />
+</LinearLayout>

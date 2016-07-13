@@ -1,0 +1,78 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- fragment_top_tile.xml的高度 -->
+    <dimen name="fragment_top_title_height">50dp</dimen>
+
+    <!-- fragment_category8.xml的高度 -->
+    <dimen name="fragment_category_8.xml_height">100dp</dimen>
+    <dimen name="fragment_category_8.xml_font">15sp</dimen>
+    <dimen name="fragment_category_8.pic_icon_pading_top">23dp</dimen>
+    <dimen name="fragment_category_8.pic_icon_pading_top2">10dp</dimen>
+    <!-- 标题的高度 -->
+    <dimen name="title_height">50dp</dimen>
+    <!-- 图片的最大高度 -->
+    <dimen name="picture_maxHeight">140dp</dimen>
+    <dimen name="picture_maxHeight2">80dp</dimen>
+    <!-- 物业缴费 账户余额 -->
+    <dimen name="wuyejiaofei_yue">80dp</dimen>
+    <!-- 物业缴费 -->
+    <dimen name="ac_textsize15sp">15sp</dimen>
+    <dimen name="ac_textsize16sp">16sp</dimen>
+    <!-- 距离左边距 -->
+    <dimen name="left_margin">20dp</dimen>
+    <!-- 距离右边距 -->
+    <dimen name="right_margin">20dp</dimen>
+    <!-- gridview的高度 -->
+    <dimen name="gridview__height">100dp</dimen>
+    <!-- 布局高度 -->
+    <dimen name="height50dp">50dp</dimen>
+    <!-- button_left -->
+    <dimen name="Buttonleft_margin">20dp</dimen>
+    <!-- button_right -->
+    <dimen name="Buttonright_margin">20dp</dimen>
+    <!-- 智能安保图片 -->
+    <dimen name="anbao_picture">120dp</dimen>
+    <!-- 智能安保图片距离 -->
+    <dimen name="picture_margin">10dp</dimen>
+    <!-- 物业报修 -->
+    <dimen name="top_height">120dp</dimen>
+    <!-- 邻里圈top -->
+    <dimen name="linli_quan_top_height">100dp</dimen>
+    <!-- 邻里圈img -->
+    <dimen name="linli_quan_img_height">100dp</dimen>
+    <!-- 公告item高度 -->
+    <dimen name="gonggao_height">120dp</dimen>
+    <!-- 个人中心 背景 -->
+    <dimen name="person_bg">200dp</dimen>
+    <dimen name="height80dp">80dp</dimen>
+    <!-- 商品推荐gridview高度 -->
+    <dimen name="shop_gridview">120dp</dimen>
+    <!-- 商品推荐gridview图片的宽度高度 -->
+    <dimen name="shop_gridview_w">65dp</dimen>
+    <dimen name="shop_gridview_h">65dp</dimen>
+    <!-- 商品推荐文字大小 -->
+    <dimen name="ac_textsize14sp">14sp</dimen>
+    <!-- 乐购首页分类图标宽高 -->
+    <dimen name="fragment_category_icon_w">15dp</dimen>
+    <dimen name="fragment_category_icon_h">30dp</dimen>
+    <dimen name="fragment_category_icon_marginLeft">5dp</dimen>
+    <!-- 乐购详情页评价的图片宽高 -->
+    <dimen name="legou_pingjia_pic_w">60dp</dimen>
+    <dimen name="legou_pingjia_pic_h">60dp</dimen>
+    <!-- 乐购详情页评价的头像高度 -->
+    <dimen name="legou_pingjia_touxiang_height40dp">40dp</dimen>
+    <!-- item_imported_food.xml的加号与减号的宽度高度 -->
+    <dimen name="item_imported_food_jia_w">40dp</dimen>
+    <dimen name="item_imported_food_jia_h">40dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nine_grid_gap">2dp</dimen>
+
+
+    <dimen name="spot_size">6dp</dimen>
+    <dimen name="progress_margin">24dp</dimen>
+    <dimen name="progress_width">250dp</dimen>
+</resources>
