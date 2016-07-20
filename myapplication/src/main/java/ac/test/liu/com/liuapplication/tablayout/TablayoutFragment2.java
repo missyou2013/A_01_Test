@@ -26,8 +26,7 @@ public class TablayoutFragment2 extends Fragment {
     private int mPage;
 
 
-
-    public static TablayoutFragment2 newInstance(int param1 ) {
+    public static TablayoutFragment2 newInstance(int param1) {
         TablayoutFragment2 fragment = new TablayoutFragment2();
         Bundle args = new Bundle();
         args.putInt(ARG_PARAM1, param1);
