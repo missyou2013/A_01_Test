@@ -23,4 +23,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/h_tab_2" />
+
+    <Button
+        android:text="TABLAYOUT_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/h_tab_3" />
+
+
+    <Button
+        android:text="捂眼动画"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/h_tab_4" />
 </LinearLayout>

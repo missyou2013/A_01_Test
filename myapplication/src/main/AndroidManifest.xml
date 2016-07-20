@@ -28,7 +28,18 @@
         <activity android:name=".A000Activity" />
         <activity android:name=".tablayout.TablayoutActivity"></activity>
         <activity android:name=".tablayout.Tablayout2Activity"></activity>
+        <activity android:name=".tablayout.Tablayout3Activity"></activity>
 
+        <!-- 登录动画 -->
+        <activity
+            android:name="ac.test.liu.com.liuapplication.readme.io.LoginActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="ac.test.liu.com.liuapplication.readme.io.RegisterActivity"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name="ac.test.liu.com.liuapplication.readme.io.MainActivity"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

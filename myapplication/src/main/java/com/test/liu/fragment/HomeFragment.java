@@ -12,7 +12,9 @@ import android.widget.Button;
 import ac.test.liu.com.liuapplication.A000Activity;
 import ac.test.liu.com.liuapplication.HomeActivity;
 import ac.test.liu.com.liuapplication.R;
+import ac.test.liu.com.liuapplication.readme.io.MainActivity;
 import ac.test.liu.com.liuapplication.tablayout.Tablayout2Activity;
+import ac.test.liu.com.liuapplication.tablayout.Tablayout3Activity;
 import ac.test.liu.com.liuapplication.tablayout.TablayoutActivity;
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -33,6 +35,10 @@ public class HomeFragment extends Fragment {
     Button hTab;
     @Bind(R.id.h_tab_2)
     Button hTab2;
+    @Bind(R.id.h_tab_3)
+    Button hTab3;
+    @Bind(R.id.h_tab_4)
+    Button hTab4;
     private HomeActivity homeActivity;
     private View rootView;
 
@@ -69,7 +75,7 @@ public class HomeFragment extends Fragment {
     }
 
 
-    @OnClick({R.id.h_recyleview, R.id.h_tab, R.id.h_tab_2})
+    @OnClick({R.id.h_recyleview, R.id.h_tab, R.id.h_tab_2, R.id.h_tab_3, R.id.h_tab_4})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.h_recyleview:
@@ -84,8 +90,17 @@ public class HomeFragment extends Fragment {
                 Intent intent3 = new Intent(homeActivity, Tablayout2Activity.class);
                 homeActivity.startActivity(intent3);
                 break;
+            case R.id.h_tab_3:
+                Intent intent4 = new Intent(homeActivity, Tablayout3Activity.class);
+                homeActivity.startActivity(intent4);
+                break;
+            case R.id.h_tab_4:
+                Intent intent5 = new Intent(homeActivity, MainActivity.class);
+                homeActivity.startActivity(intent5);
+                break;
         }
     }
+
 
 
 }
