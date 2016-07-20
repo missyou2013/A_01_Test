@@ -22,10 +22,11 @@ public class ServiceFragment extends Fragment {
 	private HomeActivity homeActivity;
 	private View rootView;
 	private boolean hadIntercept;
+
 	@Override
 	@Nullable
 	public View onCreateView(LayoutInflater inflater,
-			@Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+							 @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		rootView = inflater.inflate(R.layout.fragment_home, container, false);
 		homeActivity = (HomeActivity) getActivity();

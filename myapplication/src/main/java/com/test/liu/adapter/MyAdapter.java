@@ -54,7 +54,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ItemViewHolder> {
         @Override
         public void onClick(View v) {
             if (mOnItemClickListener != null) {
-                mOnItemClickListener.onItemClick(v, getPosition(),v.getTag());
+                mOnItemClickListener.onItemClick(v, getPosition(), v.getTag());
             }
         }
     }

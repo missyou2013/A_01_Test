@@ -69,13 +69,13 @@ public class HomeFragment extends Fragment {
     }
 
 
-    @OnClick({R.id.h_recyleview, R.id.h_tab,R.id.h_tab_2})
+    @OnClick({R.id.h_recyleview, R.id.h_tab, R.id.h_tab_2})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.h_recyleview:
-            Intent intent = new Intent(homeActivity, A000Activity.class);
-            homeActivity.startActivity(intent);
-            break;
+                Intent intent = new Intent(homeActivity, A000Activity.class);
+                homeActivity.startActivity(intent);
+                break;
             case R.id.h_tab:
                 Intent intent2 = new Intent(homeActivity, TablayoutActivity.class);
                 homeActivity.startActivity(intent2);
