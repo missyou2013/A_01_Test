@@ -38,10 +38,10 @@ public class LoginActivity extends Activity {
             //if(v.getId() == R.id.password){
             if (hasFocus) {
                 owlView.open();
-                //Toast.makeText(MainActivity.this,"获取焦点",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainTestActivity.this,"获取焦点",Toast.LENGTH_SHORT).show();
             } else {
                 owlView.close();
-                //Toast.makeText(MainActivity.this,"失去焦点",Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainTestActivity.this,"失去焦点",Toast.LENGTH_SHORT).show();
             }
             //}
         }

@@ -13,6 +13,10 @@ import ac.test.liu.com.liuapplication.A000Activity;
 import ac.test.liu.com.liuapplication.HomeActivity;
 import ac.test.liu.com.liuapplication.R;
 import ac.test.liu.com.liuapplication.readme.io.MainActivity;
+import ac.test.liu.com.liuapplication.rxjava.RxJavaRetrofit2Activity;
+import ac.test.liu.com.liuapplication.rxjava.RxJavaRetrofit2Activity_02;
+import ac.test.liu.com.liuapplication.rxjava.RxJavaRetrofit2Activity_03;
+import ac.test.liu.com.liuapplication.rxjava.rxjavaretrofitdemo.activity.MainTestActivity;
 import ac.test.liu.com.liuapplication.tablayout.Tablayout2Activity;
 import ac.test.liu.com.liuapplication.tablayout.Tablayout3Activity;
 import ac.test.liu.com.liuapplication.tablayout.TablayoutActivity;
@@ -39,6 +43,14 @@ public class HomeFragment extends Fragment {
     Button hTab3;
     @Bind(R.id.h_tab_4)
     Button hTab4;
+    @Bind(R.id.h_tab_5)
+    Button hTab5;
+    @Bind(R.id.h_tab_6)
+    Button hTab6;
+    @Bind(R.id.h_tab_7)
+    Button hTab7;
+    @Bind(R.id.h_tab_8)
+    Button hTab8;
     private HomeActivity homeActivity;
     private View rootView;
 
@@ -75,7 +87,10 @@ public class HomeFragment extends Fragment {
     }
 
 
-    @OnClick({R.id.h_recyleview, R.id.h_tab, R.id.h_tab_2, R.id.h_tab_3, R.id.h_tab_4})
+    @OnClick({R.id.h_recyleview, R.id.h_tab, R.id.h_tab_2, R.id.h_tab_3, R.id.h_tab_4, R.id.h_tab_5, R.id.h_tab_6, R.id.h_tab_7
+
+            , R.id.h_tab_8
+    })
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.h_recyleview:
@@ -98,9 +113,27 @@ public class HomeFragment extends Fragment {
                 Intent intent5 = new Intent(homeActivity, MainActivity.class);
                 homeActivity.startActivity(intent5);
                 break;
+            case R.id.h_tab_5:
+                Intent intent6 = new Intent(homeActivity, RxJavaRetrofit2Activity.class);
+                homeActivity.startActivity(intent6);
+                break;
+            case R.id.h_tab_6:
+                Intent intent7 = new Intent(homeActivity, RxJavaRetrofit2Activity_02.class);
+                homeActivity.startActivity(intent7);
+                break;
+            case R.id.h_tab_7:
+                Intent intent8 = new Intent(homeActivity, RxJavaRetrofit2Activity_03.class);
+                homeActivity.startActivity(intent8);
+                break;
+            case R.id.h_tab_8:
+                Intent intent9 = new Intent(homeActivity, MainTestActivity.class);
+                homeActivity.startActivity(intent9);
+                break;
         }
     }
 
 
-
+    @OnClick(R.id.h_tab_8)
+    public void onClick() {
+    }
 }

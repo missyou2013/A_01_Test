@@ -14,7 +14,7 @@ import ac.test.liu.com.liuapplication.BuildConfig;
 
 public class AppLogger {
 
-    protected static final String TAG = "DSBBM";
+    protected static final String TAG = "Rxjava";
 
     private AppLogger() {
     }
